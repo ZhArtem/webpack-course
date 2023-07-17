@@ -2,7 +2,7 @@
   "name": "webpack-course",
   "version": "1.0.0",
   "description": "webpack course",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
@@ -32,5 +32,8 @@
     "style-loader": "^3.3.3",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
